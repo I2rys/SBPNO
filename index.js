@@ -1,6 +1,5 @@
 //Dependencies
 const Base_64 = require("base-64")
-const To_Hex = require("to-hex")
 const Fs = require("fs")
 
 //Variables
