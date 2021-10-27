@@ -62,6 +62,7 @@ if(!input_data){
     process.exit()
 }
 
+console.log("Obfuscating the code, please wait...")
 for( i in input_data ){
     Self.matrix += `${Self.anti_2()}${Self.spacer}${Self.anti_1()}${Self.anti_2()}` + "${Base_64.decode(" + `'${Base_64.encode(input_data[i])}'` +")}" + `${Self.anti_1()}${Self.anti_2()}\n`
 }
@@ -72,4 +73,6 @@ Self.results = `const Base_64 = require("base-64")\n`
 Self.results += `a${random_numbers} = ` + "`" + Self.matrix + "`\n"
 Self.results += `eval(a${random_numbers})`
 
+console.log("Code obfuscated.")
 Fs.writeFileSync(Self_Args[1], Self.results, "utf8")
+console.log(`Obfuscated code has been saved to ${Self_Args[1]}`)
