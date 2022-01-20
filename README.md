@@ -1,11 +1,8 @@
-
 <h1 align="center">SBPNO</h1>
 <h4 align="center">Simple but powerful NodeJS obfuscator</h4>
 <p align="center">
 	<a href="https://github.com/I2rys/SBPNO/blob/main/LICENSE"><img src="https://img.shields.io/github/license/I2rys/SBPNO?style=flat-square"></img></a>
-	<a href="https://github.com/I2rys/SBPNO"><img src="https://bettercodehub.com/edge/badge/I2rys/SBPNO?branch=main"></a>
 	<a href="https://github.com/I2rys/SBPNO/issues"><img src="https://img.shields.io/github/issues/I2rys/SBPNO.svg"></img></a>
-	<a href="https://github.com/I2rys/SBPNO"><img src="https://img.shields.io/badge/version-1.0.0-orange"></img></a>
 	<a href="https://nodejs.org/"><img src="https://img.shields.io/badge/-Nodejs-green?style=flat-square&logo=Node.js"></img></a>
 </p>
 
